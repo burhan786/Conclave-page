@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    overflow-x: hidden;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.first {
+    height: 100vh;
+}
+
+.main-image {
+    width: 110vw;
+    padding: 0%;
+    position: absolute;
+    top: -2%;
+    left: -6.5%;
+    background: url('./assets/Group.svg')  no-repeat;
+    background-size: 100%;
+}
+
+.message {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 2em;
+    text-align: center;
+}
+
+.imagediv {
+    height: 80vh;
+}
+
+.container {
+    display: block;
+
+}
+
+.display{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid 6px #ff531e;
+    width: 100%;
+    height: 52vh;
+    border-radius: 30px;
+    margin:auto; 
+    padding: 2%;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width:60%;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    top: 10%;
+}
+
+.image{
+    display:block;
+    width:40%;
+    height:auto;
+    border: 6px solid #ff531e;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.heading {
+    font-size: 2em;
+    align-self: center;
+}
+
+.desc {
+    margin: 10px;
+    font-size: 1em;
+}
+
+.logo{
+    width:20%;
+    height:auto;
+    padding:0%;
+}
+
+p{
+    color:#ff531e;
+    font-size:1.5em;
+    padding: 7%;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
