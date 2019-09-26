@@ -1,45 +1,13 @@
-.display{
-    position:relative;
-    border-style:solid;
-    border-width:5%;
-    border-color: orange;
-    width:25%;
-    height:60%;
-    border-radius:10%;
-    margin:auto; 
-}
-h1{
-    text-align:center;
-    padding:0%;
-}
-.image{
-    float:left;
-    margin-left:2%;
-    margin-right:auto;
-    display:block;
-    width:20%;
-    height:2%;
-    border-style:solid;
-    border-width:5%;
-    border-color:orange;
-    border-radius:5%;
-}
-.logo{
-    float:left;
-    width:10%;
-    height:2%;
-    padding:0%;
-}
-p{
-    color:orange;
-    font-size:12vm;
-}
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 
 /* Slideshow container */
 .slideshow-container {
   position: relative;
+  width: 45%;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Slides */
@@ -63,16 +31,22 @@ body {font-family: Verdana, sans-serif; margin:0}
   user-select: none;
 }
 
+.prev {
+  border-radius: 15px 0 0 15px;
+  left: -5.5%;
+}
+
 /* Position the "next button" to the right */
 .next {
   position: absolute;
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 0 15px 15px 0;
+  right: -5.5%;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: #ff531e;
   color: white;
 }
 
@@ -88,7 +62,7 @@ body {font-family: Verdana, sans-serif; margin:0}
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: orange;
+  border: #ff531e solid 3px;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -96,11 +70,5 @@ body {font-family: Verdana, sans-serif; margin:0}
 
 /* Add a background color to the active dot/circle */
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #ff531e;
 }
-
-/* Add an italic font style to all quotes */
-q {font-style: italic;}
-
-/* Add a blue color to the author */
-.author {color: cornflowerblue;}
