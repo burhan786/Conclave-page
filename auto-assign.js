@@ -18,7 +18,23 @@ var data = [
     {
         name: 'PRAJAKTA KOHLI',
         desc: ' Indian YouTube personality who makes comedy videos popularly known by her YouTube name "MostlySane".'
-    }
+    },
+    {
+        name:'JATIN SARNA',
+        desc:'Indian film and theatre actor,as well as stage director, best known for his work in Sacred Games.'
+    },
+    {
+        name:'GIRISH NARAYANDASS',
+        desc:'Writer and director, known for AIB:Honest Engineering Campus Placements (2017) and On Air with AIB (2015)'
+    },
+    {
+        name:'SAGARIKA GHOSE',
+        desc:'A renowed journalist, news anchor and author.She was a deputy editor and prime time anchor on news channel CNN-IBN.'
+    },
+    {
+        name:'ABHISHEK UPMANYU',
+        desc:'A fast paced,very well renowed standup comedian.'
+    },
 ]
 
 assign()
